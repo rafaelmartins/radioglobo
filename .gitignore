@@ -1,0 +1,6 @@
+/build/
+/dist/
+*.pyc
+*.pyo
+/MANIFEST
+/radioglobo.egg-info
