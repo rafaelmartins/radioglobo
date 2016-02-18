@@ -22,7 +22,7 @@ make sure to have it installed before trying it.
 Usage
 -----
 
-After having ``radioglobo`` installed, you list the radio stations available::
+After having ``radioglobo`` installed, you can list the radio stations available::
 
     $ radioglobo stations
 
