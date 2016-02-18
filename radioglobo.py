@@ -18,7 +18,7 @@ def get_stations():
     j = req.json()
     if not j:
         raise click.ClickException('Failed to parse stations from website.')
-    rv = j.keys()
+    rv = list(j.keys())
     rv.sort()
     return rv
 

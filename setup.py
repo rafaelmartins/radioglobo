@@ -9,7 +9,7 @@ with open(os.path.join(current_dir, 'README.rst')) as fp:
 
 setup(
     name='radioglobo',
-    version='0.1',
+    version='0.1+',
     license='BSD',
     description='Script to play radioglobo.com radio streaming in the shell',
     long_description=long_description,
@@ -25,6 +25,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
         'Topic :: Multimedia :: Sound/Audio',
     ],
     entry_points={'console_scripts': ['radioglobo = radioglobo:cli']},
